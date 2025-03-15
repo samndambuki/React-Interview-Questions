@@ -10,6 +10,7 @@ import AsyncState from "./AsyncState";
 import UnmountTracker from "./UnmountTracker";
 import { useState } from "react";
 import Greeting from "./Greeting";
+import MessageToggle from "./MessageToggle";
 
 function App() {
   // const [showComponent, setShowComponent] = useState(true);
@@ -39,8 +40,9 @@ function App() {
       </div> */}
       {/* <Greeting name="Samuel" /> */}
       <div>
-        <h1>Simple reducer example</h1>
-        <Counter />
+        {/* <h1>Simple reducer example</h1>
+        <Counter /> */}
+        <MessageToggle />
       </div>
     </>
   );
