@@ -11,6 +11,7 @@ import UnmountTracker from "./UnmountTracker";
 import { useState } from "react";
 import Greeting from "./Greeting";
 import MessageToggle from "./MessageToggle";
+import ExpensiveComputation from "./ExpensiveComputation";
 
 function App() {
   // const [showComponent, setShowComponent] = useState(true);
@@ -42,7 +43,8 @@ function App() {
       <div>
         {/* <h1>Simple reducer example</h1>
         <Counter /> */}
-        <MessageToggle />
+        {/* <MessageToggle /> */}
+        <ExpensiveComputation />
       </div>
     </>
   );
