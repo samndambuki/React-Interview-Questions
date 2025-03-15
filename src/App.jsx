@@ -38,6 +38,10 @@ function App() {
         {showComponent && <UnmountTracker />}
       </div> */}
       {/* <Greeting name="Samuel" /> */}
+      <div>
+        <h1>Simple reducer example</h1>
+        <Counter />
+      </div>
     </>
   );
 }
