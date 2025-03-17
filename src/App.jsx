@@ -12,6 +12,7 @@ import { useState } from "react";
 import Greeting from "./Greeting";
 import MessageToggle from "./MessageToggle";
 import ExpensiveComputation from "./ExpensiveComputation";
+import Parent from "./Parent";
 
 function App() {
   // const [showComponent, setShowComponent] = useState(true);
@@ -44,7 +45,8 @@ function App() {
         {/* <h1>Simple reducer example</h1>
         <Counter /> */}
         {/* <MessageToggle /> */}
-        <ExpensiveComputation />
+        {/* <ExpensiveComputation /> */}
+        <Parent />
       </div>
     </>
   );
