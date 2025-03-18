@@ -13,6 +13,10 @@ import Greeting from "./Greeting";
 import MessageToggle from "./MessageToggle";
 import ExpensiveComputation from "./ExpensiveComputation";
 import Parent from "./Parent";
+import MemoExample from "./MemoExample";
+import ChangeColor from "./ChangeColor";
+import Dashboard from "./Dashboard";
+import MyComponent from "./MyComponent";
 
 function App() {
   // const [showComponent, setShowComponent] = useState(true);
@@ -46,7 +50,12 @@ function App() {
         <Counter /> */}
         {/* <MessageToggle /> */}
         {/* <ExpensiveComputation /> */}
-        <Parent />
+        {/* <Parent /> */}
+        {/* <MemoExample /> */}
+        {/* <Parent /> */}
+        {/* <ChangeColor /> */}
+        {/* <Dashboard /> */}
+        <MyComponent />
       </div>
     </>
   );
