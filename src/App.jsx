@@ -17,6 +17,7 @@ import MemoExample from "./MemoExample";
 import ChangeColor from "./ChangeColor";
 import Dashboard from "./Dashboard";
 import MyComponent from "./MyComponent";
+import Reconciliation from "./Reconciliation";
 
 function App() {
   // const [showComponent, setShowComponent] = useState(true);
@@ -55,7 +56,8 @@ function App() {
         {/* <Parent /> */}
         {/* <ChangeColor /> */}
         {/* <Dashboard /> */}
-        <MyComponent />
+        {/* <MyComponent /> */}
+        <Reconciliation />
       </div>
     </>
   );
