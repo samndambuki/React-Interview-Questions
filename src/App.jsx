@@ -23,10 +23,11 @@ import Track from "./Track";
 import ParagraphColor from "./color";
 import CustomHook from "./customHook";
 import JokeApp from "./JokeApp";
+import { Button, Card } from "./components";
 
 function App() {
   // const [showComponent, setShowComponent] = useState(true);
-  const [isOn, toggleIsOn] = CustomHook();
+  // const [isOn, toggleIsOn] = CustomHook();
   return (
     <>
       {/* <div className="card">
@@ -71,7 +72,9 @@ function App() {
           <p>{isOn ? "ON" : "OFF"}</p>
           <button onClick={toggleIsOn}>Toggle</button>
         </div> */}
-        <JokeApp />
+        {/* <JokeApp /> */}
+        <Card />
+        <Button />
       </div>
     </>
   );
