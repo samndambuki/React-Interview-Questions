@@ -18,9 +18,15 @@ import ChangeColor from "./ChangeColor";
 import Dashboard from "./Dashboard";
 import MyComponent from "./MyComponent";
 import Reconciliation from "./Reconciliation";
+import Students from "./Students";
+import Track from "./Track";
+import ParagraphColor from "./color";
+import CustomHook from "./customHook";
+import JokeApp from "./JokeApp";
 
 function App() {
   // const [showComponent, setShowComponent] = useState(true);
+  const [isOn, toggleIsOn] = CustomHook();
   return (
     <>
       {/* <div className="card">
@@ -57,7 +63,15 @@ function App() {
         {/* <ChangeColor /> */}
         {/* <Dashboard /> */}
         {/* <MyComponent /> */}
-        <Reconciliation />
+        {/* <Reconciliation /> */}
+        {/* <Students /> */}
+        {/* <Track /> */}
+        {/* <ParagraphColor /> */}
+        {/* <div>
+          <p>{isOn ? "ON" : "OFF"}</p>
+          <button onClick={toggleIsOn}>Toggle</button>
+        </div> */}
+        <JokeApp />
       </div>
     </>
   );
